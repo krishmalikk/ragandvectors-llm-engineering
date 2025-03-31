@@ -11,10 +11,9 @@ pinned: false
 
 An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
 
-A Retrieval-Augmented Generation (RAG) chatbot that uses LangChain, OpenAI, and Chroma to answer questions based on a custom knowledge base.
+# **Ragandvectors: AI Chatbot with RAG & Embedding Visualizations**
 
-Includes interactive 2D and 3D t-SNE visualizations of document embeddings for transparency and insight into vector similarity. Built with Gradio.
-
+A Retrieval-Augmented Generation (RAG) chatbot using LangChain, OpenAI, and Chroma — with live visualizations of your knowledge base in 2D and 3D.
 
 
 
