@@ -19,8 +19,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 MODEL = "gpt-4o-mini"
 db_name = "vector_db"
 
-load_dotenv(override=True)
-openai.api_key = os.getenv("OPENAI_API_KEY")
+load_dotenv()
 
 folders = glob.glob("knowledge-base/*")
 def add_metadata(doc, doc_type):
